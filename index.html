@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Color Giphy</title>
+<link rel="stylesheet" href="assets/css/style.css" >
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+ 
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="card bg-dark text-white">
+        <img class="card-img" src="assets/images/rainbow.jpg" alt="Card image">
+        <div class="card-img-overlay">
+            <h1 class="card-title">Giphy Color Search</h1>
+            <h5 class="card-text">Click on one of the color buttons to search Giphy or add your own color button below!</h5>
+            
+        </div>
+    </div>
+    
+
+    <!-- Buttons will Get Dumped Dere -->
+    <div id="buttons-view"></div>
+
+    <form id="giphy-form">
+      <label for="giphy-input">Add a color</label>
+      <input type="text" id="giphy-input"><br>
+
+      <!-- Button triggers new giphy to be added -->
+      <input id="add-giphy" type="submit" value="Add a Color!">
+    </form>
+    <div id="giphy-view" ></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/script.js"></script>
+  </div>
+</body>
+
+</html>
