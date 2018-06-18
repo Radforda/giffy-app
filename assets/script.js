@@ -6,7 +6,7 @@
     
         var key="fVcWItoUbVFOotQbd6sGdDBxa59lKTSE";
         var searchTerm=$(this).attr("data-name");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?api_key=fVcWItoUbVFOotQbd6sGdDBxa59lKTSE&q="+searchTerm+"&limit=10&offset=0&rating=G&lang=en";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=fVcWItoUbVFOotQbd6sGdDBxa59lKTSE&q="+searchTerm+"&limit=10&offset=0&rating=G&lang=en";
 
         $.ajax({
           url:queryURL,
